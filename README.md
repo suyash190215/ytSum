@@ -31,26 +31,3 @@ This project is a full-stack AI application that automatically converts YouTube 
 4.  **Summarization:** The text transcript is fed into a **Haystack NLP pipeline**.
 5.  **Output:** The Llama 3 model processes the text and generates a concise summary, which is then displayed to the user.
 
------
-
-## Installation & Setup
-
-1.  **Clone the repository:**
-    ```
-    git clone https://github.com/your-username/your-repo-name.git
-    cd your-repo-name
-    ```
-2.  **Create a virtual environment:**
-    ```
-    python -m venv venv
-    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-    ```
-3.  **Install the dependencies:**
-    ```
-    pip install -r requirements.txt
-    ```
-
-4.  **Run the application:**
-    ```
-    streamlit run app.py
-    ```
